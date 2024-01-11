@@ -1,0 +1,10 @@
+<div class="convo question">
+  <p><%= @question %></p>
+  <p>- You</p>
+</div>
+<div class="convo answer">
+  <p><%= @answer %></p>
+  <p>- Your coach</p>
+</div>
+
+<%= link_to "Ask a new question", ask_path, class: "hyperlink" %>
